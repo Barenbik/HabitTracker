@@ -11,6 +11,7 @@
 		3A0EA9E62B9F6537003FF8E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EA9E52B9F6537003FF8E7 /* ContentView.swift */; };
 		3A0EA9E82B9F6538003FF8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0EA9E72B9F6538003FF8E7 /* Assets.xcassets */; };
 		3A0EA9EB2B9F6538003FF8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0EA9EA2B9F6538003FF8E7 /* Preview Assets.xcassets */; };
+		3A0EA9F22B9F68C8003FF8E7 /* CreateHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EA9F12B9F68C8003FF8E7 /* CreateHabitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3A0EA9E52B9F6537003FF8E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A0EA9E72B9F6538003FF8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0EA9EA2B9F6538003FF8E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A0EA9F12B9F68C8003FF8E7 /* CreateHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHabitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		3A0EA9E22B9F6537003FF8E7 /* HabitTracker */ = {
 			isa = PBXGroup;
 			children = (
-				3A0EA9E32B9F6537003FF8E7 /* HabitTrackerApp.swift */,
 				3A0EA9E52B9F6537003FF8E7 /* ContentView.swift */,
+				3A0EA9F12B9F68C8003FF8E7 /* CreateHabitView.swift */,
+				3A0EA9E32B9F6537003FF8E7 /* HabitTrackerApp.swift */,
 				3A0EA9E72B9F6538003FF8E7 /* Assets.xcassets */,
 				3A0EA9E92B9F6538003FF8E7 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0EA9F22B9F68C8003FF8E7 /* CreateHabitView.swift in Sources */,
 				3A0EA9E62B9F6537003FF8E7 /* ContentView.swift in Sources */,
 				3A0EA9E42B9F6537003FF8E7 /* HabitTrackerApp.swift in Sources */,
 			);

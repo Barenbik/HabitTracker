@@ -21,7 +21,7 @@ struct ContentView: View {
                 .navigationTitle("Habits")
                 .toolbar {
                     NavigationLink {
-                        // TODO: Navigate to Create Habit View.
+                        CreateHabitView()
                     } label: {
                         Label("Create Habit", systemImage: "plus.circle")
                     }

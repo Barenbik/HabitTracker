@@ -10,12 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            NavigationStack {
+                List {
+                    Text("Habit 1")
+                    Text("Habit 2")
+                    Text("Habit 3")
+                    Text("Habit 4")
+                    Text("Habit 5")
+                }
+                .navigationTitle("Habits")
+                .toolbar {
+                    NavigationLink {
+                        // TODO: Navigate to Create Habit View.
+                    } label: {
+                        Label("Create Habit", systemImage: "plus.circle")
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
